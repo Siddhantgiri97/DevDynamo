@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div className="col-auto"><div className="small m-0">Copyright &copy; DevDynamo 2023</div></div>
                     <div className="col-auto">
-                        <Link className="small" to="/contact">Contact</Link>
+                        <Link className="small" href="/contact">Contact</Link>
                     </div>
                 </div>
             </div>

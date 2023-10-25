@@ -123,7 +123,7 @@ const Projects = () => {
                         <div className="container px-5 my-5">
                             <div className="text-center">
                                 <h2 className="display-4 fw-bolder mb-4">Let&apos;s build something together</h2>
-                                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/contact">Contact me</Link>
+                                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</Link>
                             </div>
                         </div>
                     </section>
