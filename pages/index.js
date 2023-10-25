@@ -34,8 +34,8 @@ export default function Home() {
                       <div className="fs-3 fw-light text-muted">I can help your business to</div>
                       <h1 className="display-3 fw-bolder mb-5"><span className={`${styles.textGradient} d-inline`}>Get online and grow fast</span></h1>
                       <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                        <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="/resume">Resume</a>
-                        <a className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="/projects">Projects</a>
+                        <Link className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" to="/resume">Resume</Link>
+                        <Link className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" to="/projects">Projects</Link>
                       </div>
                     </div>
                   </div>
@@ -63,7 +63,7 @@ export default function Home() {
                     <div className="text-center my-5">
                       <h2 className="display-5 fw-bolder"><span className={`${styles.textGradient} d-inline`}>About Me</span></h2>
                       <p className="lead fw-light mb-4">My name is Siddhant Giri and I help brands grow.</p>
-                      <p className="text-muted">I&apos;m an accomplished engineering student with a passion for innovation and a strong background in computer science. Completed my Bachelor's degree at Pune Vidhyarthi Griha&apos;s College of Engineering and Technology, I am constantly seeking out new opportunities to challenge myself and expand my skillset. <br />I am passionate about using my skills and knowledge to drive innovation and make a positive impact in the world. I am excited to explore new opportunities and challenges in my career and would love to connect with other professionals who share this same drive and passion.</p>
+                      <p className="text-muted">I&apos;m an accomplished engineering student with a passion for innovation and a strong background in computer science. Completed my Bachelor&apos;s degree at Pune Vidhyarthi Griha&apos;s College of Engineering and Technology, I am constantly seeking out new opportunities to challenge myself and expand my skillset. <br />I am passionate about using my skills and knowledge to drive innovation and make a positive impact in the world. I am excited to explore new opportunities and challenges in my career and would love to connect with other professionals who share this same drive and passion.</p>
                       <div className="d-flex justify-content-center fs-2 gap-4">
                         <a id={styles.Gradient} href="https://www.instagram.com/siddhantgiri97/" target="_blank"><FontAwesomeIcon icon={faInstagram} size="lg"  /></a>
                         <a id={styles.Gradient} href="https://www.linkedin.com/in/siddhant-giri-64042a208/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='lg' /></a>

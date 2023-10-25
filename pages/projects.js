@@ -9,6 +9,7 @@ import image1 from "../public/1.jpg"
 import image2 from "../public/2.jpg"
 import image3 from "../public/3.jpg"
 import image4 from "../public/4.jpg"
+import Link from 'next/link'
 
 const Projects = () => {
     return (
@@ -122,7 +123,7 @@ const Projects = () => {
                         <div className="container px-5 my-5">
                             <div className="text-center">
                                 <h2 className="display-4 fw-bolder mb-4">Let&apos;s build something together</h2>
-                                <a className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a>
+                                <Link className="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" to="/contact">Contact me</Link>
                             </div>
                         </div>
                     </section>
