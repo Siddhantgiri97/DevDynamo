@@ -22,7 +22,7 @@ const Resume = () => {
         <div className="d-flex flex-column h-100 bg-light">
             <main className="flex-shrink-0">
 
-                <div className="container px-3 my-5">
+                <div className="container px-4 my-5">
                     <div className="text-center mb-5">
                         <h1 className="display-5 fw-bolder mb-0"><span className={`${styles.textGradient} d-inline`}>Resume</span></h1>
                     </div>
@@ -30,8 +30,8 @@ const Resume = () => {
                         <div className="col-lg-12 col-xl-9 col-xxl-8">
 
                             <section>
-                                <div className="d-flex align-items-center justify-content-between mb-5" id={styles.btTxt}>
-                                    <h2 className="text-primary fw-bolder mb-0">Experience</h2>
+                                <div className="d-flex align-items-center g-3 justify-content-between mb-5" id={styles.btTxt}>
+                                    <h2 className="text-primary fw-bolder mb-0 mt-2">Experience</h2>
 
                                     <a className="btn btn-primary px-4 py-3" onClick={handleDownload}>
                                         <div className="d-inline-block me-2"><FontAwesomeIcon icon={faDownload} beat size="lg" /></div>

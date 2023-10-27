@@ -24,7 +24,7 @@ const Projects = () => {
                 <main className="flex-shrink-0">
 
                     <section className="py-5">
-                        <div className="container px-3 mb-5">
+                        <div className="container px-4 mb-5">
                             <div className="text-center mb-5">
                                 <h1 className="display-5 fw-bolder mb-0"><span className={`${styles.textGradient} d-inline`}>Projects</span></h1>
                             </div>
@@ -43,7 +43,7 @@ const Projects = () => {
                                                         <li>Designed the application with scalability in mind, ensuring it can handle a growing user base and increasing
                                                             demand for deepfake detection and prevention.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-                                                        <a className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder" href="https://video-crate.vercel.app/" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>Deployed Link</a>
+                                                        
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/Video-Crate" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
@@ -65,7 +65,7 @@ const Projects = () => {
                                                         <li>Pioneered the creation of an interactive community platform, facilitating knowledge-sharing and doubt resolution
                                                             among students, resulting in promoting collaborative learning.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-                                                        <a className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder" href="/resume" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>Deployed Link</a>
+                                                        
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/Student-Nexus" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
@@ -85,7 +85,7 @@ const Projects = () => {
                                                         <li>Determines if the job application should be passed along to the recruiter.</li>
                                                         <li>Gained valuable experience in back-end development, data analytics, and information retrieval systems.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-                                                        <a className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder" href="/resume" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>Deployed Link</a>
+                                                        
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/ATS" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
@@ -105,7 +105,7 @@ const Projects = () => {
                                                         <li> With just a few clicks, users can buy and sell stocks, thanks to a straightforward interface. They can make informed decisions using real-time stock prices.</li>
                                                         <li>Users can evaluate their portfolio&apos;s performance, gaining insights into gains, losses, and overall trends. Visualizations are available for a clear understanding.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-                                                        <a className="btn btn-primary btn-lg px-3 py-3 me-sm-3 fs-6 fw-bolder" href="/resume" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>Deployed Link</a>
+                                                        
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/Portfolio-Management-System" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
