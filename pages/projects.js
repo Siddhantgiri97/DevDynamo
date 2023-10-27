@@ -24,7 +24,7 @@ const Projects = () => {
                 <main className="flex-shrink-0">
 
                     <section className="py-5">
-                        <div className="container px-5 mb-5">
+                        <div className="container px-3 mb-5">
                             <div className="text-center mb-5">
                                 <h1 className="display-5 fw-bolder mb-0"><span className={`${styles.textGradient} d-inline`}>Projects</span></h1>
                             </div>

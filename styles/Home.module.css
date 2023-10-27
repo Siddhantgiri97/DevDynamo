@@ -94,8 +94,24 @@
 	}
 }
 
-#TextGr{
+@media only screen and (max-width: 568px) {
+	#btTxt {
+		flex-direction: column-reverse;
+	}
+}
+
+#TextGr {
 	color: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+#icon{
+	justify-content: center;
+}
+
+@media only screen and (min-width: 1400px) {
+	#icon {
+		justify-content: start;
+	}
 }

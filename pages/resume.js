@@ -22,7 +22,7 @@ const Resume = () => {
         <div className="d-flex flex-column h-100 bg-light">
             <main className="flex-shrink-0">
 
-                <div className="container px-5 my-5">
+                <div className="container px-3 my-5">
                     <div className="text-center mb-5">
                         <h1 className="display-5 fw-bolder mb-0"><span className={`${styles.textGradient} d-inline`}>Resume</span></h1>
                     </div>
@@ -30,7 +30,7 @@ const Resume = () => {
                         <div className="col-lg-12 col-xl-9 col-xxl-8">
 
                             <section>
-                                <div className="d-flex align-items-center justify-content-between mb-4">
+                                <div className="d-flex align-items-center justify-content-between mb-5" id={styles.btTxt}>
                                     <h2 className="text-primary fw-bolder mb-0">Experience</h2>
 
                                     <a className="btn btn-primary px-4 py-3" onClick={handleDownload}>
@@ -50,9 +50,9 @@ const Resume = () => {
                                                     <div className="small text-muted">Pune, MH</div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-7"><div>
+                                            <div className="col-lg-7" style={{textAlign:"justify"}}><div>
                                                 <ul>
-                                                    <li>Achieved milestones full of learning at a 95% completion rate.</li>
+                                                    
                                                     <li>Strengthened the foundation and demonstrated proficiency in computer fundamentals, scoring an average of 90%
                                                         in technical assessments.
                                                     </li>
@@ -74,12 +74,11 @@ const Resume = () => {
                                                     <div className="small text-muted">Akola, MH</div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-7"><div><ul>
+                                            <div className="col-lg-7" style={{textAlign:"justify"}}><div><ul>
                                                 <li>Collaborated with a cross-functional team of designers and stakeholders to deliver multiple features.</li>
                                                 <li>Developed an interactive website that ensured a 65% increase in website traffic and a 40% boost in page views.
                                                 </li>
-                                                <li>Participated in code reviews, ensuring code quality and adherence to industry best practices, leading to a 95%
-                                                    bug-free user experience.</li>
+                                                
                                             </ul></div></div>
                                         </div>
                                     </div>
@@ -104,7 +103,7 @@ const Resume = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-7"><div> <ul>
+                                            <div className="col-lg-7" style={{textAlign:"justify"}}><div> <ul>
                                                 <li>Aggregate CGPA: 9.34</li>
                                                 <li>I honed my ability to adapt to ever-evolving technology trends and developed strong problem-solving capabilities, making me an effective problem solver in the IT field.</li></ul> </div></div>
                                         </div>
@@ -127,7 +126,7 @@ const Resume = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-7"><div><ul>
+                                            <div className="col-lg-7" style={{textAlign:"justify"}}><div><ul>
                                                 <li>Class XII Percentage: 73.85 % </li>
                                                 <li>My higher secondary certificate in computer science provided me with a strong foundation in key computer science concepts, setting the stage for effective learning and application in the field.</li></ul> </div></div>
                                         </div>
@@ -193,7 +192,7 @@ const Resume = () => {
                                 <h2 className=" fw-bolder mb-4" id={styles.pinkText} >Certification</h2>
 
                                 <div className="card shadow border-0 rounded-4 mb-5">
-                                    <div className="card-body p-5">
+                                    <div className="card-body p-4">
                                         <div className="row align-items-center gx-5">
                                             <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                                 <div className="bg-light p-4 rounded-4">
@@ -209,7 +208,7 @@ const Resume = () => {
                                 </div>
 
                                 <div className="card shadow border-0 rounded-4 mb-5">
-                                    <div className="card-body p-5">
+                                    <div className="card-body p-4">
                                         <div className="row align-items-center gx-5">
                                             <div className="col text-center text-lg-start mb-4 mb-lg-0">
                                                 <div className="bg-light p-4 rounded-4">
@@ -240,7 +239,7 @@ const Resume = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-7"><div>Explored the underlying principles of blockchain technology and its immutable, decentralized nature,
+                                            <div className="col-lg-7" style={{textAlign:"justify"}}><div>Explored the underlying principles of blockchain technology and its immutable, decentralized nature,
                                                 highlighting its potential for ensuring trust and authenticity in digital media.</div></div>
                                         </div>
                                     </div>
