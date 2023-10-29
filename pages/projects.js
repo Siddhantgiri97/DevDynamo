@@ -105,7 +105,7 @@ const Projects = () => {
                                                         <li> With just a few clicks, users can buy and sell stocks, thanks to a straightforward interface. They can make informed decisions using real-time stock prices.</li>
                                                         <li>Users can evaluate their portfolio&apos;s performance, gaining insights into gains, losses, and overall trends. Visualizations are available for a clear understanding.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-                                                        <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://portfoliomanagementsystem.pythonanywhere.com/">Deployed Link</a>
+                                                        <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://portfoliomanagementsystem.pythonanywhere.com/" target="_blank">Deployed Link</a>
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/Portfolio-Management-System" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
