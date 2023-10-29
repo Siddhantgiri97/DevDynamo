@@ -28,7 +28,7 @@ const Contact = () => {
                                 <div className="fs-3 fw-light text-muted">siddhantgiri97@gmail.com</div>
                                 <div className="fs-3 fw-light text-muted">+91-7387086267</div>
                                 <div className="fs-3 fw-light text-muted">Pune, Maharashtra</div>
-                                <div className={`d-flex fs-2 gap-4 mt-5 ${styles.icon}`}>
+                                <div className={`d-flex justify-content-center fs-2 gap-4 mt-5`}>
                                     <a href="https://www.instagram.com/siddhantgiri97/" target="_blank" id={styles.TextGr} ><FontAwesomeIcon icon={faInstagram} size="lg" /></a>
                                     <a id={styles.Gradient} href="https://github.com/Siddhantgiri97" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='lg' /></a>
                                     <a id={styles.Gradient} href="https://www.linkedin.com/in/siddhant-giri-64042a208/" target="_blank"><FontAwesomeIcon icon={faGithub} size='lg' /></a>
