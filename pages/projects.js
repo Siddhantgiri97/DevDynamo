@@ -65,7 +65,7 @@ const Projects = () => {
                                                         <li>Pioneered the creation of an interactive community platform, facilitating knowledge-sharing and doubt resolution
                                                             among students, resulting in promoting collaborative learning.</li></ul>
                                                     <div className="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start my-3">
-
+                                                        <a className="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="https://studentsportal.pythonanywhere.com/" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></div>Deployed Link</a>
                                                         <a className="btn btn-outline-dark btn-lg px-3 py-3 fs-6 fw-bolder" href="https://github.com/Siddhantgiri97/Student-Nexus" target="_blank"><div className="d-inline-block me-2"><FontAwesomeIcon icon={faGithub} /></div>Source Code</a>
                                                     </div>
                                                 </div>
